@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font  */
+@font-face {
+  font-family: 'spiderman';
+  src: url(../police/Far-From\ Homecoming\ Updated.otf);
+}
+/* Selecteur UNIV  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Variable */
+:root {
+  --color1: #b11313;
+  --color2: #f1c530;
+  --color3: #114c92;
+  --color4: #000000;
+  --color5: #ffffff;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+/* NavBar  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: var(--color3);
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  margin: 0 10px;
+}
+.liste {
+  display: flex;
+  list-style-type: none;
+}
+.liste a {
+  text-decoration: none;
+  color: var(--color5);
+  margin: 0 10px;
+}
+
+/* HEADER  */
+header {
+  height: auto;
+  min-height: 500px;
+  width: 100%;
+  background: url(../Illustration/img19.png);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .titre {
+  margin-top: 150px;
+  padding-left: 20px;
+}
+.titre h1 {
+  font-family: spiderman;
+  font-size: 80px;
+}
+.titre p {
+  font-size: large;
+}
+/* SECTION  */
+section.valeurs {
+  background: #114c92;
+  padding: 20px;
+}
+.valeurs .text-video {
+  display: flex;
+  flex-wrap: wrap;
+}
+.valeurs h2 {
+  font-family: spiderman;
+  font-size: 30px;
+}
+
+.text {
+  inline-size: 800px;
+  line-height: 25px;
+  margin-top: 30px;
+}
+.text span {
+  font-weight: 600;
+}
+.video {
+  width: 560px;
+  height: 415px;
+  overflow: hidden;
+}
+
+/* SECTION SEPARATION SPIDERMAN  */
+section.spiderman {
+  height: auto;
+  min-height: 400px;
+  background: url(../Illustration/img20.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.spiderman .titre {
+  padding-top: 150px;
+  padding-left: 50px;
+}
+.titre h2 {
+  font-family: spiderman;
+  font-size: 30px;
+}
+
+/* MAIN  */
+main {
+  height: auto;
+  width: 100vw;
+  background: #114c92;
+  padding: 30px 35px;
+}
+
+/* SECTION JAMAIS SEUL  */
+section.jamais-seul {
+  height: auto;
+}
+.jamais-seul h2 {
+  font-family: spiderman;
+  font-size: 30px;
+  font-weight: 300;
+}
+.ligne {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 520px;
+}
+.image-none {
+  display: none;
+  overflow: hidden;
+  margin: 25px;
+}
+.image2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: auto;
+}
+.image2 img {
+  margin: 0 20px 20px 0;
+}
+#index {
+  position: relative;
+  z-index: 2;
+  top: -80px;
+  left: 150px;
+}
+.image img {
+  width: 350px;
+}
+
+.jamais-seul .ligne .text {
+  text-align: justify;
+  inline-size: 520px;
+}
+.jamais-seul .ligne .text h2 {
+  margin-bottom: 20px;
+}
+
+/* SECTION HERO0S  */
+section.heros .hero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.avangers {
+  background: #b11313;
+  width: 50%;
+  padding: 20px;
+}
+.avangers h2 {
+  font-family: spiderman;
+  margin-bottom: 15px;
+}
+.grid .red {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: center;
+  padding: 15px;
+}
+.text-1 {
+  text-align: justify;
+  inline-size: 220px;
+}
+.image-1 {
+  display: flex;
+  flex-direction: column;
+}
+.image-1 img {
+  margin: 0 65px 10px 0;
+}
+.image-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+.image-2 img {
+  margin: 0 0 10px 10px;
+}
+
+.avg {
+  display: flex;
+  width: 50%;
+  flex: 1;
+}
+
+/* SECTION AVENGERS SPIDERMAN  */
+section.avg-spiderman {
+  width: 100%;
+  height: auto;
+  min-height: 450px;
+  background: url(../Illustration/img33.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.univers {
+  width: 500px;
+  background: rgb(17, 76, 146, 0.7);
+  padding: 15px;
+  margin: 0 60%;
+  overflow: hidden;
+}
+.univers .titre {
+  text-align: right;
+}
+.univers .text {
+  text-align: justify;
+  inline-size: 450px;
+  min-height: 500px;
+}
+.univers .titre h2 {
+  font-family: spiderman;
+  font-size: 30px;
+}
+/* FOOTER  */
+footer {
+  height: auto;
+  width: 100%;
+  min-width: 500px;
+  min-height: 300px;
+  text-align: center;
+  padding: 30px;
+  background: #000000;
+  color: #ffffff;
+}
+footer .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+footer .item {
+  order: 1;
+}
+footer .none {
+  display: none;
+}
+footer #lg {
+  order: 2;
+}
+footer .container a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #ffffff;
+}
+footer .item a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #ffffff;
+}
+select {
+  width: 150px;
+  padding: 5px 20px 5px 4px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #b11313;
+  color: #ffffff;
+}
+footer .footer-icone {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin: 100px 0px 15px 0px;
+}
+footer .footer-icone img {
+  background: #b11313;
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+/* MEDIA  */
+@media (max-width: 1275px) {
+  .heros {
+    display: none;
+  }
+  .red {
+    min-width: none;
+  }
+}
+@media (max-width: 1250px) {
+  .avg-spiderman {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  footer .liste-footer {
+    flex-direction: column;
+  }
+  footer .liste-footer a {
+    margin-left: 0px;
+  }
+  footer .logo {
+    order: 3;
+  }
+  .right {
+    order: 1;
+  }
+  #Lg {
+    order: 2;
+  }
+}
+@media (max-width: 850px) {
+  footer .list {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  footer .container a {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  footer .item {
+    display: none;
+    float: left;
+  }
+  footer .none {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .item a {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    order: 1;
+  }
+  footer .logo {
+    order: 2;
+    margin-top: 150px;
+  }
+}
+@media (max-width: 750px) {
+  nav,
+  header,
+  section,
+  footer {
+    font-size: 1.2em;
+  }
+  nav .liste {
+    display: none;
+  }
+}
+@media (max-width: 540px) {
+  nav,
+  header,
+  main,
+  section.valeurs,
+  section.spiderman,
+  section.jamais-seul,
+  section.hero,
+  footer {
+    min-width: 700px;
+    text-align: center;
+  }
+
+  #index {
+    position: static;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+    margin-top: 15px;
+  }
+  footer .list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  footer #lg {
+    order: 1;
+  }
+  footer .logo {
+    padding-top: 50px;
+    margin: 0 auto;
+  }
+  footer .footer-icone {
+    margin-top: 45px;
+  }
+  section.bleu .btn {
+    width: 500px;
+  }
+  .image-none {
+    display: flex;
+  }
+  .jamais-seul .image2 {
+    display: none;
+  }
+  .jamais-seul .ligne .image img {
+      margin: 0 auto;
+  }
+  .jamais-seul .ligne .text {
+      inline-size: 800px;
+  }
+}
