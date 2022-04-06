@@ -127,6 +127,21 @@ main {
   background: #114c92;
   padding: 30px 35px;
 }
+/* SECTION TEXT NAV  */
+section.text-nav .container-txt{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container-txt .item-txt{
+  line-height: 20px;
+  text-align: justify;
+  inline-size: 500px;
+  margin-left: 15px;
+}
+.item-txt span {
+  font-weight: 600;
+}
 
 /* SECTION JAMAIS SEUL  */
 section.jamais-seul {
@@ -152,7 +167,7 @@ section.jamais-seul {
 .image-none {
   display: none;
   overflow: hidden;
-  margin: 25px;
+  margin: 25px 0px;
 }
 .image2 {
   display: flex;
@@ -177,7 +192,7 @@ section.jamais-seul {
 
 .jamais-seul .ligne .text {
   text-align: justify;
-  inline-size: 520px;
+  inline-size: 500px;
 }
 .jamais-seul .ligne .text h2 {
   margin-bottom: 20px;
@@ -332,7 +347,11 @@ footer .footer-icone img {
   .avg-spiderman {
     display: none;
   }
+  .container-txt {
+    margin-top: 15px;
+  }
 }
+
 @media (max-width: 650px) {
   footer .liste-footer {
     flex-direction: column;

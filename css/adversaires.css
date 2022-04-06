@@ -91,7 +91,7 @@ section .ligne {
 .ligne .image-text {
   overflow: hidden;
   width: 300px;
-margin: 10px 20px;
+  margin: 10px 20px;
 }
 .ligne .image {
   position: relative;
@@ -107,6 +107,7 @@ margin: 10px 20px;
   border-top: none;
   color: #000000;
   line-height: 20px;
+  min-height: 300px;
 }
 .text span {
   font-weight: 600;
@@ -172,7 +173,6 @@ footer .footer-icone img {
 }
 
 /* MEDIA  */
-
 @media (max-width: 850px) {
   footer .list {
     flex-wrap: nowrap;
